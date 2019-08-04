@@ -1,0 +1,152 @@
+body{
+	max-width: 1000px;
+	background-color: grey;
+	margin: auto;
+	/*background-image: url(../images/background.jpg);*/
+}
+header{
+	height: 100px;
+	background-color: white;
+	margin-top: 2px;
+	margin-bottom: 4px;
+	margin-right: 2px;
+	margin-left: 2px;
+}
+header>aside{
+	/*margin: 0px;*/
+	max-width: 50%;
+	display: inline-block;
+	/*vertical-align: top;*/
+	height: 100%;
+}
+header>aside>a>img{
+	display: block;
+	margin: auto;
+	height: 100%;
+}
+nav{
+	display: grid;
+	display: flex;
+  	grid-template-areas:
+    /*'aside aside';*/
+    margin-right: 2px;
+	margin-left: 2px;
+}
+nav>aside:first-child{
+	margin: 0px;
+	background-color: white;
+	width: auto;
+	display: inline-block;
+	margin-right: 4px;
+}
+nav>aside:first-child ul{
+	list-style-type: none;
+	padding-left: 1em;
+}
+nav>aside:first-child a{
+	display: block;
+	margin-right: 1.6em;
+	border-bottom: 1px solid grey;
+}
+nav>aside:first-child a:hover{
+	border: 1px solid black;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	margin-right: 0.5em;
+}
+nav>aside{
+	margin: 0px;
+	max-width: 75%;
+	display: inline-block;
+	vertical-align: top;
+}
+h1{
+	font-family: 'Nanum Gothic Coding', monospace;
+	font-size: 30px;
+	margin: 0px;
+}
+h2{
+	font-family: 'Nanum Gothic Coding', monospace;
+	font-size: 20px;
+	margin: 2px;
+}
+h3{
+	font-family: 'Nanum Gothic Coding', monospace;
+	font-size: 20px;
+	margin: 2px;
+}
+section:first-child{
+	margin: 0px;
+	background-color: white;
+}
+section{
+	margin: 0px;
+	margin-top: 4px;
+	padding: 0.5em 1em 0.5em 1em;
+	background-color: white;
+}
+ol>ol{
+	list-style-type: lower-alpha;
+}
+ol>li{
+	text-decoration: underline;
+}
+p{
+	text-align: justify;
+}
+section>a>div{
+	vertical-align: middle;
+	display: inline-block;
+	width: 150px;
+	height: 150px;
+	border: 1px solid grey;
+	text-align: center;
+	margin: 4px;
+}
+section>a>div>img{
+	display: block;
+	margin: auto;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	max-height: 100px;
+	max-width: 130px;
+}
+a{
+	color: black;
+	text-decoration: none;
+	width: auto;
+}
+footer{
+	margin-top: 4px;
+	background-color: white;
+	margin-right: 2px;
+	margin-left: 2px;
+	margin-bottom: 2px;
+}
+footer>div{
+	vertical-align: top;
+	display: inline-block;
+	width: 45%;
+	padding: 6px;
+}
+footer div p{
+	float: left;
+	margin: 0px;
+}
+footer div iframe{
+	float: right;
+	width: 150px;
+	height: 150px;
+	border: 0px;
+}
+footer a{
+	margin-top: 0.2em;
+	margin-bottom: 0.2em;
+}
+footer a img{
+	height: 1em;
+	margin: 0px 2px 0px 2px;
+}
+footer div:first-child a{
+	display: inline-block;
+}

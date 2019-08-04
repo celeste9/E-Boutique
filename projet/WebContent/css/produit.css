@@ -1,0 +1,50 @@
+section>img{
+	width: 30%;
+	margin: 1%;
+	vertical-align: middle;
+}
+span#prix{
+	font-family: 'Nanum Gothic Coding', monospace;
+	font-weight: bold;
+	font-size: 25px;
+	background-color: black;
+	color: white;
+}
+div#prix{
+	text-align: right;
+}
+span#panier{
+	font-family: 'Nanum Gothic Coding', monospace;
+	font-weight: bold;
+	font-size: 25px;
+	text-decoration: underline;
+}
+div#panier{
+	text-align: right;
+}
+a#panier{
+	color: blue;
+}
+section>table{
+	margin: auto;
+	border-collapse: collapse;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+section>table>caption{
+	font-family: 'Nanum Gothic Coding', monospace;
+	font-weight: bold;
+	border-bottom: 1px solid grey;
+}
+section>table tr:nth-child(odd) {
+    background-color: lightgrey;
+}
+section>table th,td{
+	padding: 0em 1em 0em 1em;
+}
+section>table th{
+	text-align: right;
+}
+section>table td{
+	border-left: 1px solid grey;
+}

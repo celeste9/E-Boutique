@@ -1,0 +1,23 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Base</title>
+<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+
+	<%@ include file="headeretvolet.jsp" %>
+
+			<!-- Mettre le contenu de la page icitte -->
+			
+			<!-- Ceci est un patron, ne pas modifier -->
+			<!-- copier ce fichier et le coller dans WebContent puis faites ce que vous voulez dans le nouveau fichier -->
+			<!-- Penser à changer le titre de la page dans le header -->
+		
+		<%@ include file="footer.jsp" %>
+		
+</body>
+</html>
